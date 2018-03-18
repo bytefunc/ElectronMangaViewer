@@ -9,6 +9,10 @@ React、 Redux と React DnD などを使用しました。
 * 自動見開き表示
 * ルーペ拡大
 
+## Download
+
+[download here](https://github.com/bytefunc/ElectronMangaViewer/releases)
+
 ## Development
 
 ```cli
