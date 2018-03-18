@@ -1,0 +1,4 @@
+node_modules/
+releases/
+yarn.lock
+UserData/

@@ -1,0 +1,25 @@
+{
+  "rulesDirectory": [
+    "tslint-plugin-prettier"
+  ],
+  "extends": [
+    "tslint:recommended",
+    "tslint-config-prettier"
+  ],
+  "rules": {
+    "prettier": [
+      true,
+      {
+        "printWidth": 120,
+        "tabWidth": 4,
+        "semi": true
+      }
+    ],
+    "no-console": false,
+    "object-literal-sort-keys": false,
+    "one-variable-per-declaration": false,
+    "interface-name": false,
+    "no-var-requires": false,
+    "member-access": false
+  }
+}

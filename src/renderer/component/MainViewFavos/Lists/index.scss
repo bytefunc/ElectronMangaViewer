@@ -1,0 +1,30 @@
+.favosListsBox {
+    margin: 0 8px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    .listsAadd {
+        padding: 15px 8px 10px;
+        margin: 8px;
+        background-color: #222;
+        border-radius: 5px;
+        .listsAddIcon {
+            height: 111px;
+            background: url(../../../../image/plus.png) no-repeat;
+            background-position: 50%;
+            cursor: pointer;
+            display: inline-block;
+        }
+        &:hover {
+            background-color: #555;
+        }
+        .listsAaddTitle {
+            color: white;
+            font-size: 14px;
+            white-space: nowrap;
+            overflow: hidden;
+            margin: 0 auto;
+            text-overflow: ellipsis;
+        }
+    }
+}

@@ -1,0 +1,22 @@
+.slider {
+    background: #2d2d2d;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    color: #fff;
+    display: flex;
+    width: 100%;
+    padding: 3px 15px 3px 25px;
+    overflow: hidden;
+    flex-direction: row;
+    z-index: 4;
+    &.hidden {
+        display: none;
+    }
+    .sliderStatus {
+        display: block;
+        width: 85px;
+        text-align: right;
+    }
+}

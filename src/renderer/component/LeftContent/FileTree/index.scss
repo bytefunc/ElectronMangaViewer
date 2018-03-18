@@ -1,0 +1,43 @@
+.fileTree {
+    padding: 10px 0 5px;
+    .fileTreeLists {
+        padding: 0px 15px 5px;
+        color: #333;
+        .formControl {
+            font-size: 12px;
+        }
+    }
+    .fileTreeView {
+        padding: 0 25px 15px 10px;
+        overflow: hidden;
+        .mangaImage {
+            float: left;
+            margin: 15px 10px 0 0;
+            width: 55px;
+            height: 80px;
+        }
+
+        .mangaPath {
+            margin: 15px 0 0;
+            display: -webkit-box;
+            cursor: text;
+            user-select: text;
+            -webkit-box-orient: vertical;
+            -webkit-line-clamp: 3;
+            overflow: hidden;
+            word-break: break-word;
+        }
+    }
+    .fileTreeItem {
+        margin: 0;
+        padding: 0 15px;
+
+        &:hover {
+            background-color: #888;
+        }
+        &.select {
+            color: red;
+            font-weight: bold;
+        }
+    }
+}

@@ -1,0 +1,23 @@
+.list {
+    padding: 15px 8px 10px;
+    margin: 8px;
+    background-color: #222;
+    border-radius: 5px;
+    .listTitle {
+        color: white;
+        font-size: 14px;
+        white-space: nowrap;
+        overflow: hidden;
+        margin: 0 auto;
+        text-overflow: ellipsis;
+    }
+    .listEmpty {
+        width: 65px;
+        height: 111px;
+        display: inline-block;
+    }
+    img {
+        width: 65px;
+        height: 105px;
+    }
+}

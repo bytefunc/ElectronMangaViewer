@@ -1,0 +1,4 @@
+{
+    "name": "electron-manga-viewer",
+    "main": "./main.js"
+}

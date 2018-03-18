@@ -1,0 +1,40 @@
+.actionsBar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 3;
+    height: 65px;
+    background: rgba(0, 0, 0, 0.65);
+    .actionsBarInner {
+        display: flex;
+
+        .actionsBarLeft {
+            min-width: 230px;
+            margin: 17px 0 0 25px;
+            text-align: left;
+        }
+
+        .actionsBarCenter {
+            width: 100%;
+            margin: 17px 0 0;
+        }
+
+        .actionsBarRight {
+            min-width: 230px;
+            margin: 17px 25px 0 0;
+            text-align: right;
+        }
+
+        .active {
+            color: #fff;
+            border: 1px solid transparent;
+            background-color: #6d6c6d;
+            background-image: none;
+        }
+
+        .active .icon {
+            color: #fff;
+        }
+    }
+}

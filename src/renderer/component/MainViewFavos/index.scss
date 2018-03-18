@@ -1,0 +1,46 @@
+.mainViewFavos {
+    background: #333;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow-y: scroll;
+    padding-bottom: 20px;
+    .favosBoxEmpty {
+        background: #333;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
+    .buttonBox {
+        position: absolute;
+        top: 15px;
+        right: 15px;
+    }
+    .listsImgResize {
+        position: absolute;
+        top: 28px;
+        right: 75px;
+    }
+    .favosTitle {
+        width: 250px;
+        margin: 10px 0 0 15px;
+        text-align: left;
+        input {
+            background: #222;
+            width: 100%;
+            color: #fff;
+            font-size: 15px;
+            margin: 10px 0px;
+            padding: 0px 8px;
+            border: 0px;
+            cursor: text;
+        }
+    }
+    .drop {
+        background-color: #ce4141;
+    }
+}
