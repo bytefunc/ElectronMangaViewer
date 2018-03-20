@@ -10,7 +10,7 @@ React、 Redux と React DnD などを使用しました。
 
 ![スクリーンショット](https://github.com/bytefunc/ElectronMangaViewer/blob/master/screenshot/app1.png)
 
-![スクリーンショット](https://github.com/bytefunc/ElectronMangaViewer/blob/master/screenshot/app2)
+![スクリーンショット](https://github.com/bytefunc/ElectronMangaViewer/blob/master/screenshot/app2.png)
 
 
 
