@@ -16,7 +16,7 @@ export function getFolderImages(dir: string) {
             const imgs = [];
             if (files) {
                 files.forEach(f => {
-                    const extention = getFileExtension(f);
+                    const extention = getFileExtension(f).toLowerCase();
                     if (permission.indexOf(extention) >= 0) {
                         imgs.push(f);
                     }
