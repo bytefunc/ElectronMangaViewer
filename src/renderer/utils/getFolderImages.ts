@@ -6,7 +6,7 @@ import * as fs from "fs";
  */
 export function getFolderImages(dir: string) {
     return new Promise<number[]>((resolve, reject) => {
-        const permission = ["jpag", "jpg", "png", "gif"]; // 取得するファイル拡張子
+        const permission = ["jpeg", "jpg", "png", "gif"]; // 取得するファイル拡張子
         fs.readdir(dir, (err, files) => {
             if (err) {
                 reject(new Error("not find"));
@@ -16,7 +16,7 @@ export function getFolderImages(dir: string) {
             const imgs = [];
             if (files) {
                 files.forEach(f => {
-                    const extention = getFileExtension(f);
+                    const extention = getFileExtension(f).toLowerCase();
                     if (permission.indexOf(extention) >= 0) {
                         imgs.push(f);
                     }
