@@ -38,7 +38,7 @@
   "dependencies": {
     "alphanum-sort": "^1.0.2",
     "detect-resize": "^0.1.5",
-    "electron": "^1.8.4",
+    "electron": "^9.1.0",
     "electron-image-resize": "^1.2.4",
     "fast-image-size": "^0.1.3",
     "rc-slider": "^8.6.1",
